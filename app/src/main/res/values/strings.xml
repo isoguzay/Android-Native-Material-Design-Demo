@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">AndroidNativeMaterialDesignDemo</string>
+    <string name="app_name">Android Material Desgin Samples</string>
+    <string name="title_activity_fab">Fab Activity Samples</string>
+
+    <string name="buttonFabSample"> Fab Samples </string>
+    <string name="buttonFloatingSample"> Floating Label Samples </string>
 </resources>
