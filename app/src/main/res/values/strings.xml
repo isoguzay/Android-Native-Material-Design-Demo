@@ -4,4 +4,6 @@
 
     <string name="buttonFabSample"> Fab Samples </string>
     <string name="buttonFloatingSample"> Floating Label Samples </string>
+    <string name="buttonToolBarSample"> ToolBar Samples </string>
+
 </resources>

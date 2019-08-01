@@ -19,11 +19,11 @@ public class FloatingLabelsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_floating_labels);
 
-        initializeComponnets();
+        initializeComponents();
         buttonLoginClick();
     }
 
-    public void buttonLoginClick(){
+    public void buttonLoginClick() {
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,7 +32,7 @@ public class FloatingLabelsActivity extends AppCompatActivity {
         });
     }
 
-    public void initializeComponnets() {
+    public void initializeComponents() {
         buttonLogin = findViewById(R.id.button_login);
         editTextPassword = findViewById(R.id.text_password);
         editTextUsername = findViewById(R.id.text_username);
