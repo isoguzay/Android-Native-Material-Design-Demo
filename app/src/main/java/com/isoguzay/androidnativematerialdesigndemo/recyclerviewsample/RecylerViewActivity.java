@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
 
 import com.isoguzay.androidnativematerialdesigndemo.R;
 
@@ -27,13 +28,13 @@ public class RecylerViewActivity extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
+        /* Implement with that spec like instagram stories designs */
+        //recyclerView.setLayoutManager(new StaggeredGridLayoutManager(1,StaggeredGridLayoutManager.HORIZONTAL));
+
         ArrayList<String> cities = new ArrayList<>();
 
-        cities.add("Istanbul");
         cities.add("Izmir");
         cities.add("Berlin");
-        cities.add("Amsterdam");
-        cities.add("Zurich");
 
         adapter = new RecyclerViewAdapter(this, cities);
 
