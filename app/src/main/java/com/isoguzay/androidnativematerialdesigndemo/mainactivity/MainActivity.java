@@ -9,11 +9,12 @@ import android.widget.Button;
 import com.isoguzay.androidnativematerialdesigndemo.R;
 import com.isoguzay.androidnativematerialdesigndemo.fabsample.FabActivity;
 import com.isoguzay.androidnativematerialdesigndemo.floatinglabels.FloatingLabelsActivity;
+import com.isoguzay.androidnativematerialdesigndemo.recyclerviewsample.RecylerViewActivity;
 import com.isoguzay.androidnativematerialdesigndemo.toolbarsample.ToolBarActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button buttonFab, buttonFloating, buttonToolBar;
+    private Button buttonFab, buttonFloating, buttonToolBar, buttonRecyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,18 @@ public class MainActivity extends AppCompatActivity {
         buttonFabClick();
         buttonFloatingClick();
         buttonToolBarClick();
+        buttonRecyclerViewClick();
+    }
+
+
+    public void buttonRecyclerViewClick(){
+        buttonRecyclerView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goRecycler = new Intent(getApplicationContext(), RecylerViewActivity.class);
+                startActivity(goRecycler);
+            }
+        });
     }
 
     public void buttonToolBarClick(){
@@ -60,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
         buttonFab = findViewById(R.id.button_fabSample);
         buttonFloating = findViewById(R.id.button_floatingSample);
         buttonToolBar = findViewById(R.id.button_toolBar);
+        buttonRecyclerView = findViewById(R.id.button_recyclerViewSample);
 
     }
 }

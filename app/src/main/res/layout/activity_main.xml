@@ -8,6 +8,23 @@
     tools:context=".mainactivity.MainActivity">
 
     <Button
+        android:id="@+id/button_recyclerViewSample"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/buttonRecyclerViewSample"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button_toolBar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_toolBar"
+        app:layout_constraintTop_toBottomOf="@+id/button_toolBar"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <Button
         android:id="@+id/button_fabSample"
         android:layout_width="210dp"
         android:layout_height="60dp"

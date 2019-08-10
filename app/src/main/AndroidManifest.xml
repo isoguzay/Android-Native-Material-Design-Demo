@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".toolbarsample.ToolBarActivity"></activity>
+        <activity android:name=".recyclerviewsample.RecylerViewActivity"></activity>
+        <activity android:name=".toolbarsample.ToolBarActivity" />
         <activity android:name=".floatinglabels.FloatingLabelsActivity" />
         <activity android:name=".fabsample.FabActivity" />
         <activity android:name=".mainactivity.MainActivity">

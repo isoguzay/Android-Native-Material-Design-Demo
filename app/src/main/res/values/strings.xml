@@ -5,5 +5,7 @@
     <string name="buttonFabSample"> Fab Samples </string>
     <string name="buttonFloatingSample"> Floating Label Samples </string>
     <string name="buttonToolBarSample"> ToolBar Samples </string>
+    <string name="buttonRecyclerViewSample"> Recycler View Samples </string>
+
 
 </resources>
