@@ -11,7 +11,7 @@ import com.isoguzay.androidnativematerialdesigndemo.R;
 
 import java.util.ArrayList;
 
-public class RecylerViewActivity extends AppCompatActivity {
+public class RecyclerViewActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
     private RecyclerViewAdapter adapter;

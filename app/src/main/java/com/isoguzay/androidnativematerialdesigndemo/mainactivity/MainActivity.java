@@ -9,7 +9,7 @@ import android.widget.Button;
 import com.isoguzay.androidnativematerialdesigndemo.R;
 import com.isoguzay.androidnativematerialdesigndemo.fabsample.FabActivity;
 import com.isoguzay.androidnativematerialdesigndemo.floatinglabels.FloatingLabelsActivity;
-import com.isoguzay.androidnativematerialdesigndemo.recyclerviewsample.RecylerViewActivity;
+import com.isoguzay.androidnativematerialdesigndemo.recyclerviewsample.RecyclerViewActivity;
 import com.isoguzay.androidnativematerialdesigndemo.toolbarsample.ToolBarActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         buttonRecyclerView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goRecycler = new Intent(getApplicationContext(), RecylerViewActivity.class);
+                Intent goRecycler = new Intent(getApplicationContext(), RecyclerViewActivity.class);
                 startActivity(goRecycler);
             }
         });
