@@ -35,6 +35,10 @@ public class RecyclerViewActivity extends AppCompatActivity {
 
         cities.add("Izmir");
         cities.add("Berlin");
+        cities.add("Amsterdam");
+        cities.add("Zurich");
+        cities.add("Istanbul");
+        cities.add("Skopje");
 
         adapter = new RecyclerViewAdapter(this, cities);
 
